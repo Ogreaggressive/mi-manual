@@ -1,0 +1,15 @@
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+table {
+  border-collapse: collapse;
+}
+tr { 
+  border: solid;
+  border-width: 1px 0;
+}
+
+.border-right {
+    border-right: 1px solid black;
+}
