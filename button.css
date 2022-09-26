@@ -1,0 +1,27 @@
+
+.button a
+{
+    position: fixed;
+    top: 85%;
+    left: 1%;
+    display: inline-block;
+    padding: 24px 40px;
+    background: #00FF00;
+    border-radius: 40px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button a:hover
+{
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    box-shadow: #3DAB3D -1px 1px, #3DAB3D -2px 2px, #3DAB3D -3px 3px, #3DAB3D -4px 4px, #3DAB3D -5px 5px, #3DAB3D -6px 6px;
+    transform: translate3d(6px, -6px, 0);
+    
+    transition-delay: 0s;
+        transition-duration: 0.4s;
+        transition-property: all;
+    transition-timing-function: line;
+}

@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-flexible-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 70%;
+    min-height: 10rem;
+    min-width: 10rem;
+}
+
+.contenedor-flexible-2{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 70%;
+    min-height: 10rem;
+    min-width: 10rem;
+}
+
+.contenedor-flexible-3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 70%;
+    min-height: 10rem;
+    min-width: 10rem;
+}
+
+.contenedor-flexible-4{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 70%;
+    min-height: 10rem;
+    min-width: 10rem;
+}
+
+.contenedor-flexible-5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 70%;
+    min-height: 10rem;
+    min-width: 10rem;
+}
+
+.contenedor-flexible-6{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 70%;
+    min-height: 10rem;
+    min-width: 10rem;
+}
+
+.elemento-flexible{
+    height: 5rem;
+    width: 10rem;
+}

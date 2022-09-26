@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="../styles.css" media="screen" type="text/css" rel="stylesheet" />
+        <link href="../button.css" media="screen" type="text/css" rel="stylesheet" />
+        <title>Recursos CSS</title>
+     </head>
+<body>
+    <h1>Frontend <span class="yellow">Developer</pan></h1>
+    <h2>recien horneado por <a href="https://github.com/Ogreaggressive" target="_blank">Nicolas Cari</a></h2>
+    <section class="button">
+        <a href="../index.html">Back</a>
+    </section>
+    <table class="container">
+        <caption><h1><span class="red"></pan>Co<span class="green"></pan>lo<span class="blue"></pan>res</h1></caption>
+        <thead>
+            <tr>
+                <th><h1>Elemento</h1></th>
+                <th><h1>Descripcion</h1></th>
+                <th><h1>Documentacion</h1></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <td>Usando nombres de colores</td>
+               <td>Podemos especificar un color usando un nombre predefinido.</td>
+               <td><a href="https://www.w3.org/TR/css-color-3/#svg-color">Documentacion</a></td>
+            </tr>
+            <tr>
+                <td>Usando la funcion RGB (r,g,b)</td>
+                <td>Para definir un color como la mezcla las intensidades de los colores primarios podemos usar la función:
+                    rgb(red, green, blue), Los valores posibles son: [0-255] o [0%-100%]</td>
+                <td><a href="https://www.w3.org/TR/css-color-3/#svg-color">Documentacion</a></td>
+            </tr>
+            <tr>
+                <td>Usando valores hexadecimales</td>
+                <td>Podemos utilizar un número hexadecimal para definir un color. Es una alternativa a la función  rgb, es decir permite definir un color como la mezcla de intensidades de los colores primarios.</td>
+                <td><a href="https://www.w3.org/TR/css-color-3/#svg-color">Documentacion</a></td>
+             </tr>
+            <tr>
+                <td>Opacidad</td>
+                <td>La propiedad CSS opacity define la transparencia de un elemento, esto es, en qué grado se superpone el fondo al elemento.</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/opacity">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>Usando la función hsl(h, s, l)</td>
+                <td>Podemos definir el color usando la función 
+                    hsl(hue, saturation, lightness).
+                    </td>
+                <td><a href="https://hslpicker.com/">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>hue</td>
+                <td>Es el color
+                    Los valores posibles son: [0-360]
+                    Podemos obtener los valores de la rueda de colores.
+                    </td>
+                <td><a href="https://webplatform.github.io/docs/css/color/colors_by_hue/">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>saturation</td>
+                <td>Determina que tan fuerte o vivo es un color
+                    Los valores posibles son: [0%-100%]
+                    Donde 100% significa completamente saturado (color muy vivo)
+                    Donde 0% significa sin saturación alguna (color apagado)
+                    </td>
+                <td><a href="https://www.w3schools.com/css/css_colors_hsl.asp">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>lightness</td>
+                <td>Permite establecer la claridad u oscuridad de un color
+                    Los valores posibles son de: [0%-100%]
+                    Donde 100% significa completamente blanco (brillantez total)
+                    Donde 50% es normal
+                    Donde 0% es competamente negro (sin brillantez)
+                    </td>
+                <td><a href="https://www.w3schools.com/css/css_colors_hsl.asp">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>Usando la función hsla(h, s, l, a)</td>
+                <td>Podemos definir el color usando la función 
+                    hsla(hue, saturation, lightness, opacity), con un valor de opacidad.
+                    </td>
+                <td><a href="http://standardista.com/webkit/ch7/hsla.html">Documentacion</a></td>
+             </tr>
+         </tbody>
+    </table>
+    <table class="container">
+        <caption><h1><span class="red"></pan>Sel<span class="green"></pan>ecto<span class="blue"></pan>res</h1></caption>
+        <thead>
+            <tr>
+                <th><h1>Elemento</h1></th>
+                <th><h1>Descripcion</h1></th>
+                <th><h1>Documentacion</h1></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <td>SELECTOR UNIVERSAL (*)</td>
+               <td> Selecciona todos los elementos: *{ declaraciones CSS }</td>
+               <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors">Documentacion</a></td>
+            </tr>
+            <tr>
+                <td>SELECTORES DE TIPO (elem)</td>
+                <td> Permite seleccionar elementos usando el nombre del elemento: elem{ declaraciones CSS }</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>SELECTOR DE CLASE (.elem)</td>
+                <td>Permite seleccionar elementos en función de los valores del atributo class de los elementos.  Para que los elementos sean seleccionados, su atributo class debe incluir un valor  que coincida con el valor del selector.
+                    .elem { declaraciones CSS }
+                </td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>SELECTORES DE ID (#elem)</td>
+                <td> Permite seleccionar un elemento en función del valor del atributo ID del elemento. Para que el elemento sea seleccionado, su atributo id debe coincidir exactamente con el valor dado en el selector.
+                    <br>#valor_atributo { declaraciones CSS }
+                </td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td colspan="3" >SELECTORES DE ATRIBUTO</td>
+             </tr>
+             <tr>
+                <td>(selector[attr])</td>
+                <td> Permite seleccionar elementos en función de la presencia o del valor de un determinado atributo. 
+                --> Selecciona elementos que tengan un atributo con el nombre attr
+                </td>
+                <td rowspan="6"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>(selector[attr=value])</td>
+                <td>Selecciona elementos que tengan un atributo con el nombre attr. El único valor del atributo es exactamente value. 
+                </td>
+             </tr>
+             <tr>
+                <td>(selector[attr~=value])</td>
+                <td> Selecciona los elementos que tengan un atributo con el nombre attr. Uno de los valores del atributo es exactamente value. 
+                </td>
+             </tr>
+             <tr>
+                <td>(selector[attr ^= value])</td>
+                <td> Selecciona los elementos que tengan un atributo con el nombre attr. El primero de los  valores del atributo empieza con value. 
+                </td>
+             </tr>
+             <tr>
+                <td>(selector[attr $= value])</td>
+                <td>Selecciona los elementos que tengan un atributo con el nombre attr. El último de los  valores del atributo termina con value.
+                </td>
+             </tr>
+             <tr>
+                <td>(selector[attr *= value])</td>
+                <td> Selecciona los elementos que tengan un atributo con el nombre attr. Uno de los valores del atributo contiene al menos una ocurrencia de  value.
+                </td>
+             </tr>
+             <tr>
+                <td>Pseudo Clase</td>
+                <td> Una pseudoclase CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado.
+                    permiten aplicar un estilo a un elemento no sólo en relación con el contenido del árbol de documento, sino también en relación a factores externos
+                </td>
+                <td><a href="https://developer.mozilla.org/en/docs/Web/CSS/Pseudo-classes">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>:disabled</td>
+                <td>Selecciona elementos que tengan un atributo con el nombre attr. El único valor del atributo es exactamente value.</td>
+                <td><a href="https://developer.mozilla.org/en/docs/Web/CSS/:disabled">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>:first-child</td>
+                <td>La pseudo-clase :first-child de CSS representa el primer elemento entre un grupo de elementos hermanos.</td>
+                <td><a href="https://developer.mozilla.org/en/docs/Web/CSS/:first-child">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>:nth-child</td>
+                <td>La pseudo-clase :nth-child() de CSS coincide con uno o más elementos en función de su posición entre un grupo de hermanos.</td>
+                <td><a href="https://developer.mozilla.org/en/docs/Web/CSS/:nth-child">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>:hover</td>
+                <td>La pseudo-clase :hover de CSS coincide cuando el usuario interactúa con un elemento con un dispositivo señalador, pero no necesariamente lo activa. Generalmente se activa cuando el usuario se desplaza sobre un elemento con el cursor</td>
+                <td><a href="https://developer.mozilla.org/en/docs/Web/CSS/:hover">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>PSEUDO- ELEMENTOS</td>
+                <td>Seleccionan parte de un elemento en lugar del elemento mismo. Los pseudo-elementos se añaden a los selectores y permiten añadir estilos a una parte concreta de los elementos seleccionados.</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>::after</td>
+                <td>crea un pseudo-elemento que es el último hijo del elemento seleccionado. Es comunmente usado para añadir contenido cosmético a un elemento con la propiedad content.Es en linea (inline) de forma predeterminada.</td>
+                <td><a href="https://developer.mozilla.org/en/docs/Web/CSS/::after">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>::before</td>
+                <td>crea un pseudoelemento que es el primer hijo del elemento seleccionado. Es usado normalmente para añadir contenido estético a un elemento, usando la propiedad content. Este elemento se muestra en línea con el texto de forma predeterminada.</td>
+                <td><a href="https://developer.mozilla.org/en/docs/Web/CSS/::before">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>::first-letter</td>
+                <td>plica estilos a la primera letra de la primera línea un elemento de bloque, sólo cuando no es precedido de otro contenido (como imágenes o tablas).</td>
+                <td><a href="https://developer.mozilla.org/en/docs/Web/CSS/::first-letter">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>::first-line</td>
+                <td>aplica estilos a la primera línea de un elemento de bloque. Nótese que la longitud de la primera línea depende de muchos factores, incluyendo el ancho del elemento, el ancho del documento y el tamaño de fuente del texto.</td>
+                <td><a href="https://developer.mozilla.org/en/docs/Web/CSS/::first-line">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>::selection</td>
+                <td>aplica reglas a una porción de un documento que ha sido destacado (por ejemplo: selección con el mouse o algún otro puntero en un dispositivo) del usuario.</td>
+                <td><a href="https://developer.mozilla.org/en/docs/Web/CSS/::selection">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>::backdrop</td>
+                <td>Este pseudo-elemento es una caja que se muestra inmediatamente debajo del elemento (y sobre el elemento inmediatamente inferior de la pila, si es que hay), dentro de dicha capa superior.</td>
+                <td><a href="https://developer.mozilla.org/en/docs/Web/CSS/::backdrop">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td colspan="3" >Union de selectores</td>
+             </tr>
+             <tr>
+                <td>LISTA DE SELECTORES</td>
+                <td>Selecciona la unión de los elementos seleccionados por cada selector de la lista:
+                    Selector-1, Selector-2, … {   }
+                </td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Selector_list">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td colspan="3" >Combinaciones de selectores</td>
+             </tr>
+             <tr>
+                <td>ELEMENTOS DESCENDIENTES</td>
+                <td>A B {}
+                    Donde A y B son selectores 
+                    Seleccionamos todos los elementos seleccionados por B que son descendientes de los elementos seleccionados por A
+                </td>
+                <td rowspan="4"><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>ELEMENTOS HIJOS</td>
+                <td>A>B{}
+                    Donde A y B son selectores 
+                    Seleccionamos todos los elementos seleccionados por B que son hijos de los elementos seleccionados por  A
+                </td>
+             </tr>
+             <tr>
+                <td>ELEMENTOS HERMANOS</td>
+                <td>A~B {}
+                    Donde A y B son selectores.
+                    Seleccionamos todos los elementos  seleccionados por B que son hermanos de los elementos seleccionados por A
+                </td>
+             </tr>
+             <tr>
+                <td>ELEMENTOS HERMANOS ADYACENTES</td>
+                <td>A+B {}
+                    Donde A y B son selectores.
+                    Seleccionamos todos los elementos  seleccionados por B que son hermanos y que están inmediatamente despues de los elementos seleccionados por A. 
+                    Selecciona el elemento B solo si sigue inmediatamente a A. Los elementos A y B son hermanos. 
+                </td>
+             </tr>
+             <tr>
+                <td>ESPECIFICIDAD</td>
+                <td>La especificidad es la manera mediante la cual los navegadores deciden qué valores de una propiedad CSS
+                    son más relevantes para un elemento y, por lo tanto, serán aplicados. La especificidad está basada en las reglas de coincidencia que están compuestas por diferentes tipos de selectores CSS.</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>Herencia</td>
+                <td>Algunos valores de las propiedades CSS que se han establecido para los elementos padre los heredan los elementos hijo, pero otros no.</td>
+                <td><a href="https://developer.mozilla.org/en/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance">Documentacion</a></td>
+             </tr>
+         </tbody>
+    </table>
+    <table class="container">
+        <caption><h1><span class="red"></pan>Uni<span class="green"></pan>da<span class="blue"></pan>des</h1></caption>
+        <thead>
+            <tr>
+                <th><h1>Elemento</h1></th>
+                <th><h1>Descripcion</h1></th>
+                <th><h1>Documentacion</h1></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <td>Integer</td>
+               <td>Un integer es un número entero, como 1024 o -55.</td>
+               <td rowspan="6"><a href="https://developer.mozilla.org/en/docs/Learn/CSS/Building_blocks/Values_and_units">Documentacion</a></td>
+            </tr>
+            <tr>
+                <td>Number</td>
+                <td>Un number representa un número decimal; puede tener o no un punto de separación decimal con un componente fraccionario, por ejemplo: 0.255, 128 o -1.2.</td>
+             </tr>
+             <tr>
+                <td>Dimension</td>
+                <td>Una dimension es un number con una unidad asociada, por ejemplo: 45deg (grados), 
+                    5s (segundos) o 10px (píxeles). dimension es una categoría general que incluye los tipos
+                         length, angle, time y resolution.
+                </td>
+             </tr>
+             <tr>
+                <td>Percentage</td>
+                <td>Un percentage representa una fracción de algún otro valor, por ejemplo, 50%. Los valores de porcentaje 
+                    siempre son relativos a otra cantidad, por ejemplo, la longitud de un elemento es relativa a la longitud de su elemento padre.
+                </td>
+             </tr>
+             <tr>
+                <td>Vw</td>
+                <td>Este valor es relativo al ancho de la ventana gráfica, por lo que 10vw es el 10 por ciento del ancho de la ventana gráfica. Si cambiases el ancho de la ventana de tu navegador, el tamaño de la caja cambiaría.
+                </td>
+             </tr>
+             <tr>
+                <td>Vh</td>
+                <td>
+                    1% de la altura de la ventana gráfica.
+                </td>
+             </tr>
+         </tbody>
+    </table>
+    <table class="container">
+        <caption><h1><span class="red"></pan>Prop<span class="green"></pan>ied<span class="blue"></pan>ades</h1></caption>
+        <thead>
+            <tr>
+                <th><h1>Elemento</h1></th>
+                <th><h1>Descripcion</h1></th>
+                <th><h1>Documentacion</h1></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <td>Contenido</td>
+               <td>Es el área donde se encuentra el contenido del elemento(texto, imagen, etc).</td>
+               <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model">Documentacion</a></td>
+            </tr>
+            <tr>
+                <td>Relleno</td>
+                <td>establece el espacio de relleno requerido por todos los lados de un elemento. El área de padding es el espacio entre el contenido del elemento y su borde (border). No se permiten valores negativos.</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>Borde</td>
+                <td>Es el borde del elemento donde se puede cambiar El grosor, color y estilo del borde.</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders">Documentacion</a></td>
+             </tr>
+             <tr>
+                <td>Margen</td>
+                <td>Es el margen del elemento. Se usa para separar el elemento de sus vecinos. El grosor del margen está determinado por las propiedades:
+                    margin-top margin-right
+                    margin-bottom margin-left                    
+                </td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin">Documentacion</a></td>
+             </tr>
+         </tbody>
+    </table>
+    <center>
+       <img src="../images/propiedadDisplay.jpg" >
+    </center>
+    </body>
+    </html>
